@@ -14,7 +14,7 @@ PREFIX: process.env.PREFIX || ".",
 BOT_NAME: process.env.BOT_NAME || "✦ᴍᴀʟᴠɪɴ xᴅ v2",
 // add bot name here for menu
 
-CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react   
 
 STICKER_NAME: process.env.STICKER_NAME || "MALVIN-XD",
@@ -23,7 +23,7 @@ STICKER_NAME: process.env.STICKER_NAME || "MALVIN-XD",
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍",
 // chose custom react emojis by yourself 
 
-DELETE_LINKS: process.env.DELETE_LINKS || "false",
+DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857",
@@ -47,13 +47,13 @@ LIVE_MSG: process.env.LIVE_MSG || "> ✦ᴍᴀʟᴠɪɴ xᴅ✦ ɪs sᴘᴀʀᴋ
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 
-AUTO_REACT: process.env.AUTO_REACT || "false",
+AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
 
-ANTI_BAD: process.env.ANTI_BAD || "false",
+ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words
 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
@@ -74,13 +74,13 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
 
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 
-HEART_REACT: process.env.HEART_REACT || "false",
+HEART_REACT: process.env.HEART_REACT || "true",
 // make this true or false for heart reactions only 
 
 OWNER_REACT: process.env.OWNER_REACT || "true",
@@ -104,7 +104,7 @@ FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
 FAKE_TYPING: process.env.FAKE_TYPING || "false",
 // make it true for fake typing
 
-READ_CMD: process.env.READ_CMD || "false",
+READ_CMD: process.env.READ_CMD || "true",
 // true if want mark commands as read 
 
 DEV: process.env.DEV || "263714757857",
